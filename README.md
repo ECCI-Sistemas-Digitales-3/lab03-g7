@@ -10,7 +10,7 @@
 ## Preguntas
 
 1. ¿Qué función cumple ```plt.fignum_exists(self.fig.number)``` en el ciclo principal?
-
+Para asegurar que el programa se siga ejecutando mientras el grafico no se cierre, si se cierra cambia el estado.
 2. ¿Por qué se usa ```time.sleep(self.intervalo)``` y qué pasa si se quita?
 
 3. ¿Qué ventaja tiene usar ```__init__``` para inicializar listas y variables?
