@@ -16,9 +16,9 @@ Para que el programa se detenga según el intervalo especificado, si se quita el
 3. ¿Qué ventaja tiene usar ```__init__``` para inicializar listas y variables?
 Que cada obejeto tengo sus propias  "caracteristicas" lo que hace que el sofware sea mas ordenado y eficiente lo que minimiza los errores.
 4. ¿Qué se está midiendo con ```self.inicio = time.time()```?
-
+Graba la hora en la que se unicia el timer
 5. ¿Qué hace exactamente ```subprocess.check_output(...)```?
-
+Python ejecuta un sub proceso en el que va a la terminal, corre el comando y regresa el resultado, se usa para obtener información de sistemas externos.
 6. ¿Por qué se almacena ```ahora = time.time() - self.inicio``` en lugar del tiempo absoluto?
 
 7. ¿Por qué se usa ```self.ax.clear()``` antes de graficar?
