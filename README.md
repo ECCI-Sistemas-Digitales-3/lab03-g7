@@ -14,7 +14,7 @@ Para asegurar que el programa se siga ejecutando mientras el grafico no se cierr
 2. ¿Por qué se usa ```time.sleep(self.intervalo)``` y qué pasa si se quita?
 Para que el programa se detenga según el intervalo especificado, si se quita el programa nunca para, por ejemplo en un bucle, lo que lo puede sobracargar y hacer menos eficiente con los recursos de hardware.
 3. ¿Qué ventaja tiene usar ```__init__``` para inicializar listas y variables?
-
+Que cada obejeto tengo sus propias  "caracteristicas" lo que hace que el sofware sea mas ordenado y eficiente lo que minimiza los errores.
 4. ¿Qué se está midiendo con ```self.inicio = time.time()```?
 
 5. ¿Qué hace exactamente ```subprocess.check_output(...)```?
